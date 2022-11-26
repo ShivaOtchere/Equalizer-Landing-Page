@@ -6,10 +6,8 @@
 
 body{
     background: url(./assets/bg-main-desktop.png);
-
-    /*width: 1440px;
-    height: 1832px;
-*/
+    background-repeat: no-repeat;
+    background-position: 20% 15%;
 }
 
 #firstPics{
@@ -66,8 +64,6 @@ body{
     font-size: 20px;
     line-height: 34px;
     font-weight: 400;
-    
-    
 }
 
 #middleContent{
@@ -105,6 +101,7 @@ article{
     position: absolute;
     left: 534px;
     top: 990px;
+    text-align: left;
     background-color: #FA7453;
     color: #FCFAF9;
     padding-left: 60px;
@@ -133,15 +130,19 @@ article{
     font-size: 70px;
     padding-right: 20px;
     }
-    
-#iDownload{
-    background-color: #191826;
-    color:#FCFAF9;
+
+.button{
     width: 346px;
     padding-top:15px;
     padding-bottom:15px;
-    margin-bottom: 10px;
     border-radius: 15px;
+    border-width: 0px;
+}
+#iDownload{
+    background-color: #191826;
+    color:#FCFAF9;
+    margin-bottom: 10px;
+    
 }
 #iDownload:hover{
     animation: ios 0.2s ;
@@ -157,10 +158,6 @@ article{
 #androidDownload{
     background-color: #FCFAF9;
     color:#191826;
-    width: 346px;
-    padding-top:15px;
-    padding-bottom:15px;
-    border-radius: 15px;
  
 }
 #androidDownload:hover{
@@ -198,15 +195,15 @@ footer{
     text-align: left;
     margin-top: 0px;
     width: 450px;
-    margin-right: 430px;
+    margin-right: 380px;
 }
 
 .footPic{
     fill:#191826;
     margin-left: 10px;
     margin-right: 10px;
-    
 }
+
 
 .footPic:hover {
     animation: footani 0.2s ;
@@ -225,3 +222,112 @@ footer{
 
 
 
+
+@media(max-width: 768px){
+    body{
+    background-repeat: no-repeat;
+    background-position: -900px -300px;/*-100px -50px;
+    background-size: cover;*/
+    }
+   
+    #mainContent{
+        margin-left:20px;
+        margin-right: 20px;
+    }
+
+    #firstPics{
+        margin-left:20px;
+        margin-right: 0px;
+    }
+    #topRightDeco{
+        margin-left: 456px;
+        width: 266.67px;
+        height: 400px;
+    }
+    #topContent{
+        width: 520px;
+        height: 332px;
+        position: relative;
+        bottom: 50px;
+        margin-bottom: 50px;
+        
+        
+    }
+    #bigText{
+        font-size: 70px;
+        width: 520px;
+        line-height: 70px;
+        letter-spacing: -1px;    
+        margin-bottom: 40px;
+        margin-top: -221px;
+   
+    } 
+    
+    .smallText{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    #smallContent{
+        width: 520px;
+    }
+
+    #phoneDemo{
+        width: 282px;
+        height: auto;
+        position: absolute;
+        left: 97px;
+        top: 647px;
+        z-index: 2;
+    }
+
+    #middleDeco{/*312 468  280 420*/
+        padding-left: 265.2px;
+        padding-right: 118.8px;
+        border-radius: 10px;
+        padding-bottom: 200px;   
+        
+    }
+
+    article{
+        width: 282px;
+        height: 625px;
+        position: absolute;
+        left: 274px;
+        top: 990px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+       
+    }
+
+    #paymentPlan{
+        margin-top: -30px;
+    }
+
+    .button{
+        width: 282px;
+    }
+
+    footer{
+        width: 696px;
+        height: 143px;
+        flex-direction: column;
+    }
+
+    #footIcon{
+        margin-bottom: 30px;
+    }
+
+    .footPic{
+        fill:#191826;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #footPics{
+        position: relative;
+        left: 280px;
+        bottom: 50px;
+    }
+}
