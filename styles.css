@@ -1,11 +1,12 @@
 * {
     font-family: IBM-Plex-Sans, monospace;
-    background: url(./assets/bg-main-desktop.png);
-
+    
         
 }
 
 body{
+    background: url(./assets/bg-main-desktop.png);
+
     /*width: 1440px;
     height: 1832px;
 */
@@ -143,7 +144,14 @@ article{
     border-radius: 15px;
 }
 #iDownload:hover{
-    background-color: #66E2DC;
+    animation: ios 0.2s ;
+    animation-fill-mode: forwards;
+}
+@keyframes ios {
+
+    100%{
+        background-color: #66E2DC; 
+    }
 }
 
 #androidDownload{
@@ -156,8 +164,18 @@ article{
  
 }
 #androidDownload:hover{
-    background-color:#FFB964;
+ 
+    animation: android 0.2s ;
+    animation-fill-mode: forwards;
 }
+@keyframes android {
+
+    100%{
+        background-color:#FFB964; 
+    }
+}
+
+
 
 footer{
     width: 1250px;
@@ -174,13 +192,7 @@ footer{
     height: 32px;
     width: 146.09px;
     margin-right: 130px;
-    fill: pink;
-    
 }
-footIcon:hover{
-    fill:#FFB964;
-}
-
 
 #footnote{
     text-align: left;
@@ -188,3 +200,28 @@ footIcon:hover{
     width: 450px;
     margin-right: 430px;
 }
+
+.footPic{
+    fill:#191826;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.footPic:hover {
+    animation: footani 0.2s ;
+    animation-fill-mode: forwards;
+
+   
+        
+    }
+
+@keyframes footani {
+
+    100%{
+        fill:#FA7453; 
+    }
+}
+
+
+
