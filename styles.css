@@ -142,6 +142,10 @@ article{
     margin-bottom: 10px;
     border-radius: 15px;
 }
+#iDownload:hover{
+    background-color: #66E2DC;
+}
+
 #androidDownload{
     background-color: #FCFAF9;
     color:#191826;
@@ -150,6 +154,9 @@ article{
     padding-bottom:15px;
     border-radius: 15px;
  
+}
+#androidDownload:hover{
+    background-color:#FFB964;
 }
 
 footer{
@@ -167,7 +174,14 @@ footer{
     height: 32px;
     width: 146.09px;
     margin-right: 130px;
+    fill: pink;
+    
 }
+footIcon:hover{
+    fill:#FFB964;
+}
+
+
 #footnote{
     text-align: left;
     margin-top: 0px;
