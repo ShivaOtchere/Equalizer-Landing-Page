@@ -1,5 +1,5 @@
 * {
-    font-family: IBM-Plex-Sans, monospace;
+    font-family: IBM-Plex-Sans, Arial, Helvetica, monospace;
     
         
 }
@@ -223,6 +223,11 @@ footer{
 
 
 
+
+
+
+
+
 @media(max-width: 768px) and (min-width: 375px){
     body{ 
     background-repeat: no-repeat;
@@ -237,7 +242,7 @@ footer{
 
     #firstPics{
         margin-left:20px;
-        margin-right: 0px;
+        margin-right: 20px;
     }
     #topRightDeco{
         margin-left: 456px;
@@ -302,6 +307,10 @@ footer{
        
     }
 
+    #premium{
+        line-height: 40px;
+    }
+
     #paymentPlan{
         margin-top: -30px;
     }
@@ -331,6 +340,12 @@ footer{
         bottom: 50px;
     }
 }
+
+
+
+
+
+
 
 
 
