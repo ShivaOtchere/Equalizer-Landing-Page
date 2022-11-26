@@ -12,7 +12,7 @@ body{
 
 #firstPics{
     margin-left:20%;
-    margin-right: 20%;
+    margin-right: 0%;
 }
 
 #logo{
@@ -89,7 +89,7 @@ body{
     background-color: #191826;
     padding-left: 300px;
     padding-right: 620px;
-    border-radius: 10px;
+    border-radius: 12px;
     padding-bottom: 200px;
     z-index: 1;
     
@@ -223,8 +223,8 @@ footer{
 
 
 
-@media(max-width: 768px){
-    body{
+@media(max-width: 768px) and (min-width: 375px){
+    body{ 
     background-repeat: no-repeat;
     background-position: -900px -300px;/*-100px -50px;
     background-size: cover;*/
@@ -285,7 +285,7 @@ footer{
     #middleDeco{/*312 468  280 420*/
         padding-left: 265.2px;
         padding-right: 118.8px;
-        border-radius: 10px;
+        border-radius: 12px;
         padding-bottom: 200px;   
         
     }
@@ -330,4 +330,136 @@ footer{
         left: 280px;
         bottom: 50px;
     }
+}
+
+
+
+@media(max-width: 375px){
+    body{
+       background-repeat: no-repeat;
+       background-position: -1100px -500px;/*-100px -50px;*/
+    }
+   #topRightDeco{
+    display: none;
+   }
+
+   #mainContent{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#firstPics{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#topContent{
+    width: 320px;
+    height: 327x;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+#bigText{
+    width: 327px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin-bottom: 40px;
+    margin-top: -221px;
+
+} 
+
+.smallText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+#smallContent{
+    width: 327px;
+}
+
+#phoneDemo{
+    width: 208.97px;
+    height: 430px;
+    position: absolute;
+    left: 73.5px;
+    top: 647px;
+    z-index: 2;
+}
+
+#middleDeco{/*312 468  280 420*/
+    width: 280px;
+    height: 431.9px;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+    position:absolute;
+    left:-20px;
+    
+}
+
+article{
+    width: 375px;
+    height: 546px;
+    position:absolute;
+    left:-20px;
+    top: 1250px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+   
+}
+
+#articleText{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#premium{
+    padding-left: 30px;
+}
+
+#paymentPlan{
+    margin-top: -30px;
+    padding-left: 30px;
+}
+
+.button{
+    width: 275px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer{
+    width: 327px;
+    height: 220px;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+#footnote{
+    width: 327px;
+}
+
+#footIcon{
+    margin-bottom: 30px;
+}
+
+.footPic{
+    fill:#191826;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#footPics{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    top: 50px;
+    text-align: left;
+}
+
 }
