@@ -1,24 +1,176 @@
 * {
     font-family: IBM-Plex-Sans, monospace;
     background: url(./assets/bg-main-desktop.png);
-    margin-left: 166.15px;
-    
+
+        
+}
+
+body{
+    /*width: 1440px;
+    height: 1832px;
+*/
+}
+
+#firstPics{
+    margin-left:20%;
+    margin-right: 20%;
 }
 
 #logo{
     height: 32px;
     width: 146.09px;
-    position: relative;
-    bottom: 61.99px;    
-    
+    position: absolute;
+    top: 61.99px;    
+    /*left: 165.15px;*/
 }
 
 #topRightDeco{
-    position: relative;
-    top: 40px;
-    left: 960px;
+    position: absolute;
+    top: -40px;
+    /*left: 1128px;*/
+    width: 312px;
+    height: 468px;
+    margin-left:1100px;
+}
+
+#mainContent{
+    position: absolute;
+    text-align: center;
+    top: 468px;    
+    /*left: 165.15px;
+    /*width: 1440px;*/
+    margin-left:20%;
+    margin-right: 20%;
+    
 }
 
 #bigText{
+    width:1015px;
+    font-weight: 800;
+    font-size: 88px;    
+    line-height: 88px;
+    letter-spacing: -1px;
+    color:#191826;
+    margin-bottom: 40px;
+    margin-top: -221px;
+    text-align: left;
+}
+
+#smallContent{
+    width:825px;
+    margin-top: 0px;
+    text-align: left;
+}
+.smallText{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
     
+    
+}
+
+#middleContent{
+    position: absolute;
+    bottom: 600px;
+    /*left: -200.15px;*/
+}
+
+
+#phoneDemo{
+    width: 312px;
+    height: 642px;
+    position: absolute;
+    left: 67px;
+    top: 647px;
+    z-index: 2;
+}
+
+#middleDeco{
+    position: absolute;
+    left: 0px;
+    top: 860px;
+    background-color: #191826;
+    padding-left: 300px;
+    padding-right: 620px;
+    border-radius: 10px;
+    padding-bottom: 200px;
+    z-index: 1;
+    
+}
+
+article{
+    width: 346px;
+    height: 625px;
+    position: absolute;
+    left: 534px;
+    top: 990px;
+    background-color: #FA7453;
+    color: #FCFAF9;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+#premium{
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+#paymentPlan{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;   
+
+}
+
+    
+
+#bigFour{
+    font-size: 70px;
+    padding-right: 20px;
+    }
+    
+#iDownload{
+    background-color: #191826;
+    color:#FCFAF9;
+    width: 346px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#androidDownload{
+    background-color: #FCFAF9;
+    color:#191826;
+    width: 346px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 15px;
+ 
+}
+
+footer{
+    width: 1250px;
+    height: 79px;
+    position: absolute;
+    left: 0px;
+    top: 1400px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#footIcon{
+    height: 32px;
+    width: 146.09px;
+    margin-right: 130px;
+}
+#footnote{
+    text-align: left;
+    margin-top: 0px;
+    width: 450px;
+    margin-right: 430px;
 }
